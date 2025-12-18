@@ -6,7 +6,7 @@ pipeline {
                 echo 'Запуск тестов Django...'
             
                 sh '''
-                    python manage.py test
+                    python3 manage.py test
                 '''
             }
            
